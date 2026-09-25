@@ -8,10 +8,9 @@ logger = logging.getLogger(__name__)
 
 def init_db():
     try:
-        if db_url.startswith("sqlite"):
-            logger.info(f"Initializing SQLite database schema at {db_url}...")
-            Base.metadata.create_all(bind=engine)
-            logger.info("SQLite database schema initialized successfully.")
+        logger.info(f"Initializing database schema at {db_url}...")
+        Base.metadata.create_all(bind=engine)
+        logger.info("Database schema initialized successfully.")
         
         # Safe ALTER TABLE to add artifact fields
         with engine.begin() as conn:
