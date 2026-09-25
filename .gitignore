@@ -1,0 +1,12 @@
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+dist/
+build/
+qshield_fallback.db
+*.sqlite
+*.db

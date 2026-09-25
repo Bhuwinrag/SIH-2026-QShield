@@ -1,0 +1,13 @@
+{
+    "Total Experiments": 450,
+    "TP": 300,
+    "FP": 0,
+    "TN": 90,
+    "FN": 60,
+    "Detection Rate (TPR)": 0.8333333333333334,
+    "False Positive Rate (FPR)": 0.0,
+    "False Negative Rate (FNR)": 0.16666666666666666,
+    "Precision": 1.0,
+    "Specificity": 1.0,
+    "Accuracy": 0.8666666666666667
+}
